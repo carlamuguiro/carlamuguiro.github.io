@@ -1,5 +1,9 @@
+$(document).ready(function() {
+  $('header nav ul li:first-child').click(function(){
+    $(this).parent().toggleClass('slideDown');
+  });
+});
 
-
-$("project").mouseover(function(){
-    $("project").css("background-color", "white");
+$("p").mouseover(function(){
+    $("p").css("background-color", "#f5f5f5");
 });
