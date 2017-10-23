@@ -72,12 +72,12 @@ a {
 .logo {
   font-size: 48px;
   font-weight: 800;
-  color: #885ead;
-  letter-spacing: 0.3em;
+  color: #44146F;
+  letter-spacing: 0.1em;
 }
 
 .logo a{
-  color: #885ead;
+  color: #44146F;
 }
 
 header {
@@ -87,6 +87,7 @@ header {
 header .logo {
   color: #fff;
   float: left;
+  margin: 0;
 }
 
 header nav {
@@ -196,6 +197,8 @@ footer a:hover {
 
 .wrapper .about {
   background-color: #fff;
+  max-width: 960px;
+  margin-right: 20px;
 }
 
 .project{
