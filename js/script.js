@@ -1,5 +1,6 @@
 $(document).ready(function() {
   $('header nav ul li:first-child').click(function(){
+  	console.log('click')
     $(this).parent().toggleClass('slideDown');
   });
 });
